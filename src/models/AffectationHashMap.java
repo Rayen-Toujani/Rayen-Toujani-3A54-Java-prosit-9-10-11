@@ -62,6 +62,12 @@ public class AffectationHashMap {
     }
 
 
+    public Map<employes, departement> trierMap() {
+        Map<employes, departement> sortedMap = new HashMap<>(affectations);
+        return sortedMap;
+    }
+
+
 
 
 }
