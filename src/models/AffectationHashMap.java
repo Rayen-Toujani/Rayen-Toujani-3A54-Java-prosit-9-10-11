@@ -3,6 +3,7 @@ package models;
 import java.util.Map;
 
 import java.util.HashMap;
+import java.util.TreeMap;
 
 public class AffectationHashMap {
 
@@ -63,8 +64,9 @@ public class AffectationHashMap {
 
 
     public Map<employes, departement> trierMap() {
-        Map<employes, departement> sortedMap = new HashMap<>(affectations);
-        return sortedMap;
+        Map<employes, departement> SortedMap = new TreeMap<>(affectations);
+
+        return SortedMap;
     }
 
 
